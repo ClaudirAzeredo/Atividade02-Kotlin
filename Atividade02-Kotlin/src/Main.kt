@@ -10,7 +10,7 @@ fun main() {
 
 
         val salarioAnualBruto = salarioBrutoMensal * mesesTrabalhados
-        val desconto: Double = 6000.0 // Exemplo de valor de desconto fixo
+        val desconto: Double = 6000.0 
         val salarioAnualLiquido = salarioAnualBruto - desconto
         val mensagem = "Funcionário: $nome, Salário Anual Líquido: R$$salarioAnualLiquido"
 
